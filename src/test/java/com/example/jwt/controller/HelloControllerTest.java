@@ -27,7 +27,7 @@ public class HelloControllerTest {
     private MockMvc mockMvc;
 
 
-    @WithMockUser // 인증된 Mock 유저 주입
+    //@WithMockUser // 시큐리티 인증된 Mock 유저 주입
     @DisplayName("GET요청 테스트 /hello")
     @Test
     public void hello() throws Exception{

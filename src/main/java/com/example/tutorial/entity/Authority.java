@@ -1,4 +1,4 @@
-package com.example.jwt.entity;
+package com.example.tutorial.entity;
 
 import lombok.*;
 

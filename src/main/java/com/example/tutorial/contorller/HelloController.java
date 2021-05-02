@@ -1,4 +1,4 @@
-package com.example.jwt.contorller;
+package com.example.tutorial.contorller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

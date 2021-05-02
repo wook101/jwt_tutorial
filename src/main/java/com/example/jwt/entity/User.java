@@ -8,7 +8,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 
-@Entity
+@Entity //데이터 베이스의 테이블과 1대1로 매핑되는 객체
 @Table(name = "user")
 @Getter
 @Setter

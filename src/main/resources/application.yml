@@ -13,7 +13,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: create-drop #앱이 실행되면 자동으로 테이블 초기화
     properties:
       hibernate:
         formate_sql: true

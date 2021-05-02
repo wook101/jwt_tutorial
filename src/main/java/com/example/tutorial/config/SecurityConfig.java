@@ -70,9 +70,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
                 .and()
                 .authorizeRequests()
-                .antMatchers("/api/hello").permitAll()
-                .antMatchers("/api/authenticate").permitAll()
-                .antMatchers("/api/signup").permitAll()
+                .antMatchers("/hello").permitAll()
+                .antMatchers("/authenticate").permitAll()
+                .antMatchers("/signup").permitAll()
                 .anyRequest().authenticated()
 
                 .and()
